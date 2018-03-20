@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Location Seeker</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="styles-brzoska.css"> <!-- Link my CSS to style my HTML from a separate file. -->
+		<script type="text/JavaScript" src="javascript-brzoska.js"></script> <!-- Link my JavaScript from separate file. -->
+	</head>
+	<body onload="initMap()"> <!-- Runs Init function that includes map on page load. -->
+		<div class="header">
+			<img src="seek.png" alt="title"> <!-- Game Title. -->
+		</div>
+		<div class="main">
+			<div id="map"></div>
+		</div>
+		<div class="footer">
+			<h3 id="hint">Hint: Begin your mission.</h3> <!-- Hints display. -->
+			<h3 id="score">Score: 0</h3> <!-- Score display. -->
+		</div>
+		<script async defer
+			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJD1-GYizW84V3DpaLJLslwHLQxDS6Ijw&amp;callback=initMap">
+		</script>
+	</body>
+</html>
+ 
