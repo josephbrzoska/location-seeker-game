@@ -6,7 +6,7 @@ body {
 	color: black;
 	font-family: Consolas;
 	background-color: white;
-	background-image: url("world.jpg"); /* Set the background image. */
+	background-image: url("images/world.jpg"); /* Set the background image. */
 }
 .header { /* Top div with my name information and game title. */
 	background-color: #99FF99;
